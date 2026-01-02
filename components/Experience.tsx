@@ -222,7 +222,7 @@ export const Experience: React.FC = () => {
           <button 
             onClick={() => {
               const link = document.createElement('a');
-              link.href = '/Amit_Mishra_Resume.pdf';
+              link.href = './Amit_Mishra_Resume.pdf';
               link.download = 'Amit_Mishra_Resume.pdf';
               document.body.appendChild(link);
               link.click();
