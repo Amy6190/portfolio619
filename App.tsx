@@ -9,7 +9,7 @@ import { ContactPage } from './pages/ContactPage';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/portfolio619">
       <div className="min-h-screen relative overflow-hidden flex flex-col selection:bg-primary selection:text-white bg-background-dark dark:bg-background-dark light:bg-slate-50 high-contrast:bg-black">
         {/* Background Decorator Blobs - Hidden in High Contrast */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
